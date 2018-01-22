@@ -1,4 +1,4 @@
-FROM node:8-stretch
+FROM node:9-stretch
 
 RUN apt-get update && \
     DEBIAN_FRONTEND="noninteractive" \
